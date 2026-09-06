@@ -44,7 +44,7 @@ Vendor-grade iOS security SDKs, binary-audit tooling, and engineering writing, b
 | **[ManifestGuard SDK](https://sentinelden.com/sdk/manifestguard)** | Debug-only privacy-manifest auditor: catches missing and over-declared required-reason categories before App Store review does |
 | **[SentinelDen Studio](https://sentinelden.com/audit)** | Notarized macOS app for auditing iOS binaries against OWASP MASVS rule packs. SARIF / PDF / Markdown report exports. Linux `sentinelctl` CLI variant included. |
 
-All twelve SDKs ship as code-signed `.xcframework` archives (or as a notarized macOS app for SentinelDen Studio) with B2B licensing. The integration references at [sentinelden.com/docs](https://sentinelden.com/docs) cover the full API surface. Source for the commercial products is closed; the only public-source artifact under this org is below.
+All twelve SDKs ship for iOS as code-signed `.xcframework` archives and for Android as signed `.aar` artifacts (or as a notarized macOS app for SentinelDen Studio), with B2B licensing. The integration references at [sentinelden.com/docs](https://sentinelden.com/docs) cover the full API surface. Source for the commercial products is closed; the only public-source artifact under this org is below.
 
 ## Open source
 
@@ -64,7 +64,7 @@ The engineering blog at **[sentinelden.com/blog](https://sentinelden.com/blog)**
 - Sensor and acoustic anomaly detection, Bayesian fusion across modalities
 - OWASP MASVS workflow on a real `.ipa`, macOS hardened-runtime entitlements for security tooling, SARIF for CI
 
-Ninety-plus technical posts. No vendor fluff. RSS at [sentinelden.com/rss.xml](https://sentinelden.com/rss.xml).
+Seventy-plus technical posts. No vendor fluff. RSS at [sentinelden.com/rss.xml](https://sentinelden.com/rss.xml).
 
 ## Reach us
 
