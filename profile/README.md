@@ -21,8 +21,8 @@
 ---
 
 Vendor-grade iOS and Android security SDKs, binary-audit tooling, and engineering
-writing, by [Muhammad Khan](https://github.com/iamuhammadkhan) from Vancouver,
-British Columbia.
+writing from Vancouver, British Columbia. Founded by
+[Muhammad Khan](https://github.com/iamuhammadkhan).
 
 Every SDK ships as a code-signed `.xcframework` on iOS and a SHA-256-verified
 `.aar` under `com.sentinelden` on Android, published under a registered Apple
@@ -59,9 +59,11 @@ with its limits stated.
 **[xcprivacy-lint](https://github.com/sentinelden/xcprivacy-lint)** &nbsp;·&nbsp; MIT
 
 A Swift CLI that validates an iOS `PrivacyInfo.xcprivacy` manifest against the
-API surface a binary actually touches. To be straight about its state: the repo
-is pre-v0.1 design scaffolding, and the validator it will expose ships embedded
-in Studio today. Contributions welcome.
+API surface a binary actually touches. At v0.3.0 it reads thin and fat Mach-O,
+resolves `.app`, `.ipa`, `.xcframework` and `.xcarchive` inputs, and reports
+missing declarations, over-declarations and invalid reason codes as text, JSON,
+GitHub annotations or SARIF. The same validation ships embedded in Studio.
+Contributions welcome.
 
 ## Free tooling
 
@@ -73,7 +75,7 @@ gate. Free at Community level, and it runs without a licence key.
 
 ## Writing
 
-Seventy-plus technical posts at
+Eighty-plus technical posts at
 [sentinelden.com/blog](https://sentinelden.com/blog), on the problems these SDKs
 were built to solve. No vendor fluff. [RSS](https://sentinelden.com/rss.xml).
 
