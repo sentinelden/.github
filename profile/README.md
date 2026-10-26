@@ -71,7 +71,7 @@ Contributions welcome.
 
 The audit engine as a CLI. Reads `.ipa`, `.app`, `.apk` and `.aab`, writes SARIF,
 CycloneDX SBOM, Markdown and issue-tracker JSON, and its exit code is a build
-gate. Free at Community level, and it runs without a licence key.
+gate. Free at Community level, and it runs without a license key.
 
 ## Writing
 
